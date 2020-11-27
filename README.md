@@ -1,6 +1,6 @@
 # CSS Positioning
 
-This assignment is broken into three parts. After doing this assignment, you should have an understanding of:
+This assignment is broken into two parts. After doing this assignment, you should have an understanding of:
 
 - The use of `position` and related CSS properties
 
