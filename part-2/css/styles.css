@@ -24,6 +24,7 @@ figure {
 }
 
 .film {
-  width: 50%;
-  margin: 40px auto;
+  float: left;
+  width: 40%;
+  margin: 40px;
 }
