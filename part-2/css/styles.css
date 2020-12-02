@@ -19,11 +19,51 @@ img {
   max-width: 100%;
 }
 
-figure {
-  margin: 0;
+.film {
+  position: relative;
+  display: block;
+  margin: 40px;
+  margin-left: 500px;
+  margin-right: 500px;
+  outline: 2px solid lightgrey;
+  height: 400px;
+  padding: 20px;
 }
 
-.film {
-  width: 50%;
-  margin: 40px auto;
+.floater {
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-right: 20px;
+  width: 230px;
+  height: 325px;
+}
+
+.action-like {
+  position: absolute;
+  color: red;
+  bottom: 20px;
+  right: 20px;
+}
+
+.film-description {
+  margin-left: 20px;
+  padding: 20px;
+}
+
+.floater2 {
+  position: relative;
+  z-index: 1;
+  float: left;
+  margin-right: 20px;
+  width: 230px;
+  height: 325px;
+}
+
+.action-watch-later {
+  z-index: 2;
+  color: red;
+  position: absolute;
+  left: 210px;
+  top: 50px;
 }
